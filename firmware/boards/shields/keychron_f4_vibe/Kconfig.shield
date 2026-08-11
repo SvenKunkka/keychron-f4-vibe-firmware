@@ -1,0 +1,5 @@
+# Copyright (c) 2026 Keychron
+# SPDX-License-Identifier: MIT
+
+config SHIELD_KEYCHRON_F4_VIBE
+    def_bool $(shields_list_contains,keychron_f4_vibe)
